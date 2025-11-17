@@ -30,6 +30,7 @@ if (cdnHost) {
 }
 
 const nextConfig: NextConfig = {
+  devIndicators: false,
   images: {
     remotePatterns,
   },

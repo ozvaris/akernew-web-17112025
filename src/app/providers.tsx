@@ -9,7 +9,7 @@ export default function Providers({ children }: { children: React.ReactNode }) {
   return (
     <QueryClientProvider client={queryClient}>
       <AuthProvider>{children}</AuthProvider>
-      {process.env.NODE_ENV !== "production" && <ReactQueryDevtools />}
+      {/* {process.env.NODE_ENV !== "production" && <ReactQueryDevtools />} */}
     </QueryClientProvider>
   );
 }
