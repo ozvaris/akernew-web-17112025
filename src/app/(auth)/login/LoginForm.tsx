@@ -48,7 +48,7 @@ export default function LoginForm() {
           height={44}
           className="inline-block"
         />
-        ProKVK Giriş Sayfası
+        ProKVK Giriş Sayfası (Demo)
       </h1>
 
       <form className="space-y-5" onSubmit={handleSubmit}>
